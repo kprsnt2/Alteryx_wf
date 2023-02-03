@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."CovidDeaths$"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=NEEHANTH\SQLEXPRESS
+Catalog=SQL
+Query=dbo."CovidDeaths$"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="iso_code" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="continent" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="location" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="date" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="DateTime" />
+            <Field name="total_cases" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="new_cases" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="new_cases_smoothed" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="total_deaths" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_deaths" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_deaths_smoothed" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="total_cases_per_million" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="new_cases_per_million" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="new_cases_smoothed_per_million" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="total_deaths_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_deaths_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_deaths_smoothed_per_million" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="reproduction_rate" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="icu_patients" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="icu_patients_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="hosp_patients" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="hosp_patients_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="weekly_icu_admissions" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="weekly_icu_admissions_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="weekly_hosp_admissions" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="weekly_hosp_admissions_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_tests" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="total_tests" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="total_tests_per_thousand" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_tests_per_thousand" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_tests_smoothed" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_tests_smoothed_per_thousand" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="positive_rate" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="tests_per_case" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="tests_units" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="total_vaccinations" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="people_vaccinated" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="people_fully_vaccinated" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_vaccinations" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_vaccinations_smoothed" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="total_vaccinations_per_hundred" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="people_vaccinated_per_hundred" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="people_fully_vaccinated_per_hundred" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="new_vaccinations_smoothed_per_million" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="stringency_index" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="population" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="population_density" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="median_age" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="aged_65_older" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="aged_70_older" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="gdp_per_capita" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="extreme_poverty" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="cardiovasc_death_rate" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="diabetes_prevalence" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="female_smokers" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="male_smokers" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="V_WString" />
+            <Field name="handwashing_facilities" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="hospital_beds_per_thousand" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="life_expectancy" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+            <Field name="human_development_index" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SQL;Data Source=NEEHANTH\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=NEEHANTH;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;CovidDeaths$&quot;" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"iso_code","continent","location","date","total_cases","new_cases","new_cases_smoothed","total_deaths","new_deaths","new_deaths_smoothed","total_cases_per_million","new_cases_per_million","new_cases_smoothed_per_million","total_deaths_per_million","new_deaths_per_million","new_deaths_smoothed_per_million","reproduction_rate","icu_patients","icu_patients_per_million","hosp_patients","hosp_patients_per_million","weekly_icu_admissions","weekly_icu_admissions_per_million","weekly_hosp_admissions","weekly_hosp_admissions_per_million","new_tests","total_tests","total_tests_per_thousand","new_tests_per_thousand","new_tests_smoothed","new_tests_smoothed_per_thousand","positive_rate","tests_per_case","tests_units","total_vaccinations","people_vaccinated","people_fully_vaccinated","new_vaccinations","new_vaccinations_smoothed","total_vaccinations_per_hundred","people_vaccinated_per_hundred","people_fully_vaccinated_per_hundred","new_vaccinations_smoothed_per_million","stringency_index","population","population_density","median_age","aged_65_older","aged_70_older","gdp_per_capita","extreme_poverty","cardiovasc_death_rate","diabetes_prevalence","female_smokers","male_smokers","handwashing_facilities","hospital_beds_per_thousand","life_expectancy","human_development_index"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[total_cases]/[total_deaths]*100" field="Death Percentage" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Death Percentage = [total_cases]/[total_deaths]*100
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="total_deaths" selected="True" type="Double" size="8" />
+            <SelectField field="new_deaths" selected="True" type="Double" size="8" />
+            <SelectField field="total_deaths_per_million" selected="True" type="Double" size="8" />
+            <SelectField field="new_deaths_per_million" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\neeha\OneDrive\Desktop\Consolidation\COVID.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>COVID.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="486" y="54" width="231" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Database direct connection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+            <Position x="510" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Connection>NEEHANTH\SQLEXPRESS</Connection>
+              <Query>dbo."CovidVaccinations$"</Query>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Source=NEEHANTH\SQLEXPRESS
+Query=dbo."CovidVaccinations$"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+            <Position x="738" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ValidateBeforeRun value="True" />
+              <FormulaFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="LockInGui.LockInSelect.LockInSelect">
+            <Position x="618" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output26" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="65485a44-714a-4141-99c4-95bcf7bb6399" />
+      <Telemetry>
+        <PreviousWorkflowId value="cc472e90-84f1-4a7e-9459-1bc95e358647" />
+        <OriginWorkflowId value="cc472e90-84f1-4a7e-9459-1bc95e358647" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

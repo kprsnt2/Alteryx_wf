@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>owid-covid-data.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="iso_code" size="255" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="continent" size="255" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="location" size="255" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="date" size="255" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="total_cases" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_cases" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_cases_smoothed" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_deaths" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_deaths" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_deaths_smoothed" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_cases_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_cases_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_cases_smoothed_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_deaths_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_deaths_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_deaths_smoothed_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="reproduction_rate" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="icu_patients" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="icu_patients_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="hosp_patients" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="hosp_patients_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="weekly_icu_admissions" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="weekly_icu_admissions_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="weekly_hosp_admissions" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="weekly_hosp_admissions_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_tests" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_tests" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_tests_per_thousand" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_tests_per_thousand" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_tests_smoothed" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_tests_smoothed_per_thousand" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="positive_rate" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="tests_per_case" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="tests_units" size="255" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="total_vaccinations" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="people_vaccinated" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="people_fully_vaccinated" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_boosters" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_vaccinations" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_vaccinations_smoothed" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_vaccinations_per_hundred" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="people_vaccinated_per_hundred" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="people_fully_vaccinated_per_hundred" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="total_boosters_per_hundred" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_vaccinations_smoothed_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_people_vaccinated_smoothed" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="new_people_vaccinated_smoothed_per_hundred" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="stringency_index" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="population_density" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="median_age" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="aged_65_older" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="aged_70_older" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="gdp_per_capita" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="extreme_poverty" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="cardiovasc_death_rate" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="diabetes_prevalence" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="female_smokers" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="male_smokers" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="handwashing_facilities" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="hospital_beds_per_thousand" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="life_expectancy" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="human_development_index" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="population" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="excess_mortality_cumulative_absolute" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="excess_mortality_cumulative" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="excess_mortality" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="excess_mortality_cumulative_per_million" source="File: C:\Users\neeha\Downloads\owid-covid-data.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="iso_code" selected="True" />
+            <SelectField field="continent" selected="True" />
+            <SelectField field="location" selected="True" />
+            <SelectField field="date" selected="True" />
+            <SelectField field="total_cases" selected="True" />
+            <SelectField field="new_cases" selected="True" />
+            <SelectField field="population" selected="True" />
+            <SelectField field="new_cases_smoothed" selected="True" />
+            <SelectField field="total_deaths" selected="True" />
+            <SelectField field="new_deaths" selected="True" />
+            <SelectField field="new_deaths_smoothed" selected="True" />
+            <SelectField field="total_cases_per_million" selected="True" />
+            <SelectField field="new_cases_per_million" selected="True" />
+            <SelectField field="new_cases_smoothed_per_million" selected="True" />
+            <SelectField field="total_deaths_per_million" selected="True" />
+            <SelectField field="new_deaths_per_million" selected="True" />
+            <SelectField field="new_deaths_smoothed_per_million" selected="True" />
+            <SelectField field="reproduction_rate" selected="True" />
+            <SelectField field="icu_patients" selected="True" />
+            <SelectField field="icu_patients_per_million" selected="True" />
+            <SelectField field="hosp_patients" selected="True" />
+            <SelectField field="hosp_patients_per_million" selected="True" />
+            <SelectField field="weekly_icu_admissions" selected="True" />
+            <SelectField field="weekly_icu_admissions_per_million" selected="True" />
+            <SelectField field="weekly_hosp_admissions" selected="True" />
+            <SelectField field="weekly_hosp_admissions_per_million" selected="True" />
+            <SelectField field="total_tests" selected="False" />
+            <SelectField field="new_tests" selected="False" />
+            <SelectField field="total_tests_per_thousand" selected="False" />
+            <SelectField field="new_tests_per_thousand" selected="False" />
+            <SelectField field="new_tests_smoothed" selected="False" />
+            <SelectField field="new_tests_smoothed_per_thousand" selected="False" />
+            <SelectField field="positive_rate" selected="False" />
+            <SelectField field="tests_per_case" selected="False" />
+            <SelectField field="tests_units" selected="False" type="Double" size="8" />
+            <SelectField field="total_vaccinations" selected="False" />
+            <SelectField field="people_vaccinated" selected="False" />
+            <SelectField field="people_fully_vaccinated" selected="False" />
+            <SelectField field="total_boosters" selected="False" />
+            <SelectField field="new_vaccinations" selected="False" />
+            <SelectField field="new_vaccinations_smoothed" selected="False" />
+            <SelectField field="total_vaccinations_per_hundred" selected="False" />
+            <SelectField field="people_vaccinated_per_hundred" selected="False" />
+            <SelectField field="people_fully_vaccinated_per_hundred" selected="False" />
+            <SelectField field="total_boosters_per_hundred" selected="False" />
+            <SelectField field="new_vaccinations_smoothed_per_million" selected="False" />
+            <SelectField field="new_people_vaccinated_smoothed" selected="False" />
+            <SelectField field="new_people_vaccinated_smoothed_per_hundred" selected="False" />
+            <SelectField field="stringency_index" selected="False" />
+            <SelectField field="population_density" selected="False" />
+            <SelectField field="median_age" selected="False" />
+            <SelectField field="aged_65_older" selected="False" />
+            <SelectField field="aged_70_older" selected="False" />
+            <SelectField field="gdp_per_capita" selected="False" />
+            <SelectField field="extreme_poverty" selected="False" />
+            <SelectField field="cardiovasc_death_rate" selected="False" />
+            <SelectField field="diabetes_prevalence" selected="False" />
+            <SelectField field="female_smokers" selected="False" />
+            <SelectField field="male_smokers" selected="False" />
+            <SelectField field="handwashing_facilities" selected="False" />
+            <SelectField field="hospital_beds_per_thousand" selected="False" />
+            <SelectField field="life_expectancy" selected="False" />
+            <SelectField field="human_development_index" selected="False" />
+            <SelectField field="excess_mortality_cumulative_absolute" selected="False" />
+            <SelectField field="excess_mortality_cumulative" selected="False" />
+            <SelectField field="excess_mortality" selected="False" />
+            <SelectField field="excess_mortality_cumulative_per_million" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="318" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\neeha\OneDrive\Desktop\Portfolio\Covid_Deaths.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Covid_Deaths.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="total_cases" selected="False" />
+            <SelectField field="new_cases" selected="False" />
+            <SelectField field="new_cases_smoothed" selected="False" />
+            <SelectField field="total_deaths" selected="False" />
+            <SelectField field="new_deaths" selected="False" />
+            <SelectField field="new_deaths_smoothed" selected="False" />
+            <SelectField field="total_cases_per_million" selected="False" />
+            <SelectField field="new_cases_per_million" selected="False" />
+            <SelectField field="new_cases_smoothed_per_million" selected="False" />
+            <SelectField field="total_deaths_per_million" selected="False" />
+            <SelectField field="new_deaths_per_million" selected="False" />
+            <SelectField field="new_deaths_smoothed_per_million" selected="False" />
+            <SelectField field="reproduction_rate" selected="False" />
+            <SelectField field="icu_patients" selected="False" />
+            <SelectField field="icu_patients_per_million" selected="False" />
+            <SelectField field="hosp_patients" selected="False" />
+            <SelectField field="hosp_patients_per_million" selected="False" />
+            <SelectField field="weekly_icu_admissions" selected="False" />
+            <SelectField field="weekly_icu_admissions_per_million" selected="False" />
+            <SelectField field="weekly_hosp_admissions" selected="False" />
+            <SelectField field="weekly_hosp_admissions_per_million" selected="False" />
+            <SelectField field="population" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="330" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\neeha\OneDrive\Desktop\Portfolio\Covid_Vaccination.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Covid_Vaccination.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="330" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\neeha\OneDrive\Desktop\Consolidation\vaccination.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>vaccination.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="222" y="-18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\neeha\OneDrive\Desktop\Consolidation\death.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>death.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SQL portfolio</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="46ab4c10-df90-40e2-95a7-b7c67600ff0d" />
+      <Telemetry>
+        <PreviousWorkflowId value="51020794-5ddc-409a-b8a6-cdd9b5b25d8f" />
+        <OriginWorkflowId value="51020794-5ddc-409a-b8a6-cdd9b5b25d8f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

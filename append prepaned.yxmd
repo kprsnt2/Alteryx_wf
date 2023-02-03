@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Orders and Returns.xlsx
+Query=`Orders$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Order Priority" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Date" />
+            <Field name="Order ID" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Discount" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Unit Price" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Order Quantity" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Sales" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Profit" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Shipping Cost" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Product Base Margin" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Department" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Container" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Item" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_WString" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Customer" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Customer Name" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_WString" />
+            <Field name="Country / Region" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Double" />
+            <Field name="Ship Date" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+            <Field name="SubRegion" size="255" source="File: C:\Users\neeha\Downloads\Orders and Returns.xlsx|||`Orders$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\neeha\AppData\Local\Temp\Engine_14144_4b9294b4910429469eb6d800c4c6fe98_\Engine_14144_aeec449653f0e849974dcabbc9f9bfe9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\neeha\Downloads\test.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="True" />
+          <MultiFileType>Suffix</MultiFileType>
+          <MultiFileField>Row</MultiFileField>
+          <KeepField value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>test.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>append prepaned</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2d2fc815-7c0b-42a1-b0a3-b68da75ae8d7" />
+      <Telemetry>
+        <PreviousWorkflowId value="9a465ffd-b71a-4822-a1c6-1b9d2f2c988c" />
+        <OriginWorkflowId value="9a465ffd-b71a-4822-a1c6-1b9d2f2c988c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
